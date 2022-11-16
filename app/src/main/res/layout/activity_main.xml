@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:layout_marginTop="150dp"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50sp"
+        android:text="Lector QR y codigo de barras"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="20sp" />
+
+    <TextView
+
+        android:id="@+id/textContent"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:layout_margin="10dp"
+
+        android:text="Contenido" />
+
+
+    <TextView
+
+        android:id="@+id/textFormat"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:layout_margin="10dp"
+
+        android:text="Tipo" />
+
+
+    <Button
+
+        android:id="@+id/scanBtn"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:layout_margin="10dp"
+
+        android:backgroundTint="#4325CA"
+
+        android:text="Escanear" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:baselineAligned="false"
+        android:text="Juan Manuel Lopez"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
